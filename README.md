@@ -1,7 +1,17 @@
 # Assignment6.1---MatPlotlib-and-Data-Cleansing
-DATA CLEANSING
+MATPLOT LIB and DATA CLEANSING
 
-Task 2:
+Task 1:
+
+This assignment is for visualization using matplotlib:
+data to use:
+url= https://raw.githubusercontent.com/Geoyi/Cleaning-Titanic-Data/master/titanic_original.csv
+titanic = pd.read_csv(url)
+Charts to plot:
+1. Create a pie chart presenting the male/female proportion
+2. Create a scatterplot with the Fare paid and the Age, differ the plot color by gender
+
+Task 2: DATA CLENSING
 
 It happens all the time: someone gives you data containing malformed strings, Python, lists and
 missing data. How do you tidy it up so you can get on with the analysis?
